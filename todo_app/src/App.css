@@ -1,0 +1,70 @@
+body,html{
+  height:100%;
+  background:#209cee;
+}
+
+.heading{
+  text-align: center;
+  color:white;
+}
+.todo{
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  background-color: white;
+  margin-left: 10px;
+  margin-right:10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.todo p{
+  width:90%;
+  border:100px;
+  color:black
+}
+
+.complete{
+  margin-right: 10px;
+  border:1px solid lightgrey;
+  background-color: lightgrey;
+  border-radius: 6px;
+
+}
+.delete{
+  border:1px solid red;
+  background-color:red;
+  border-radius: 6px;
+}
+input{
+  margin:20px;
+  padding:10px;
+  border:0;
+  border-radius: 6px;
+  width:95%;
+  outline:none;
+}
+.todos{
+  background-color: lightgrey;
+  padding:5px;
+  margin:15px;
+  border-radius:20px;
+  padding-bottom: 10px;
+  border:100px;
+  max-height: 4000px;
+  overflow: auto;
+
+}
+.developer{
+  background:  green;
+  width:200px;
+  color:white;
+  transform: rotate(-45deg);
+  position: absolute;
+  text-align: center;
+  top:10px;
+  left:-30px;
+
+
+}
+
